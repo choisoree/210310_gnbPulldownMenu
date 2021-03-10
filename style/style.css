@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*reset*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a               {   text-decoration: none;  }
+a:link         {  color: #444;  }
+a:visited    {  color: #444;  }
+a:hover      {  color: #444;  }
+a:active      {  color: #444;  }
+
+img    {   vertical-align: middle;  }
+
+ul {list-style: none;}
+
+/*reset*/
+
+
+
+
+/*div#wrap 시작*/
+
+div#wrap  {
+    width: 600px;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+/*div#wrap 끝*/
+
+/*gnb 메뉴 시작*/
+nav#gnb {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#gnb ul#mainmenu {
+/*    border: 1px solid #08f;*/
+    display: inline-block;
+}
+
+#gnb #mainmenu>li {
+    border: 1px solid #aaa;
+    float: left;
+}
+
+#gnb ul#mainmenu::after {
+    content: "";
+    height: 48px;
+    display: block;
+}
+#gnb a {
+    font-size: 20px;
+    padding:10px 30px;
+    display: inline-block;
+}
+
+#gnb #mainmenu>li>a {
+    font-weight: bold;
+    background-color: #08f;
+}
+
+#gnb a:hover {
+    font-weight: bold;
+    background-color: #08f;
+}
+
+#gnb ul.subMenu {
+    display: none;
+}
+
+/*gnb 메뉴  끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
